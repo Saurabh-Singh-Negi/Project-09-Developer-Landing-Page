@@ -51,15 +51,16 @@ nav {
   margin: 2rem 0 0 4rem;
 }
 
-.header-text {
-  margin: 4rem;
-  font-size: 1.5rem;
-  float: left;
+.hero {
+  display: flex;
+  justify-content: space-between;
 }
 
-.header-image {
-  float: right;
+.header-text {
+  margin-left: 4rem;
+  font-size: 1.5rem;
 }
+
 
 .companies {
   margin: 1rem 0 0 4rem;
@@ -276,12 +277,72 @@ nav {
   .nav-items {
     display: none;
   }
+   .api-heading {
+     text-align: center;
+   }
+
+   .api {
+    margin: 1rem;
+   }
+
+   .cards {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      justify-items: center;
+      align-items: center;
+
+   }
+
+    
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .api {
+    display: flex;
+    flex-direction: column;
+    margin-top: 280px;
+  }
+  
+
+  
+}
+
+@media screen and (max-width:1024px) {
+  .companies {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .header-image {
+    width: 100%;
+  }
+  .header-text {
+    margin-left: 5px;
+
+  }
+  .api {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+
+  .header-text > h2 {
+    font-size: 2rem;
+  }
+
+  .header-text > p {
+    font-size: 1rem;
+  }
+
+
   
   
 }
-/* 
-@media screen and (max-width:1024px){
-  .nav-items {
-    display: none;
-  }     
-} */
