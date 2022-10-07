@@ -310,7 +310,36 @@ nav {
   }
   
 
+  .blog-heading {
+    text-align: center;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-bottom {
+    display: none;
+  }
   
+  .blog-author {
+    position: relative;
+    bottom: -45%;
+    right: 0%;
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width:1024px) {
@@ -342,7 +371,7 @@ nav {
     font-size: 1rem;
   }
 
-
+  
   
   
 }
