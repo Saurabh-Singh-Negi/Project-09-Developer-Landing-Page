@@ -352,6 +352,43 @@ nav {
     align-items: center;
     text-align: center;
   }
+
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #4617fe;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+/* 
+  .footer-logo {
+    align-self:  center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: -60px;
+  } */
+
+  .footer-right {
+    display: none;
+  }
+
+  
+
 }
 
 @media screen and (max-width:1024px) {
